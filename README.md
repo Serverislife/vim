@@ -1,11 +1,9 @@
 # My Vim settings
 
 ---
-
 **Note**
 
 If you are using Windows, change all occurences of `~/.vim` to `~\vimfiles`
-
 ---
 
 This repository serves as a way to setup Vim in the same manner as me. While this repository is mostly for me, anyone is welcome to use it.
