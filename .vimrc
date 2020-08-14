@@ -1,10 +1,16 @@
 " setting <LEADER> to ','
 let mapleader = ","
 
-" Setting shell to /bin/bash for Vim
+" colorscheme - elflord
+colorscheme elflord
+
+" setting shell to /bin/bash for Vim
 set shell=/bin/bash
 
-" Using Pathogen as Vim plugin manager
+" putting line numbers on editor for open files
+set number
+
+" using Pathogen as Vim plugin manager
 execute pathogen#infect()
 syntax on
 filetype plugin indent on

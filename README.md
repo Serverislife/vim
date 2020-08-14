@@ -47,7 +47,7 @@ git clone https://github.com/<dev_username>/<repo_name>.git
 
 ## Plug-ins
 
-This section is a list of my currently installed plug-ins. A lot of my development
+  This section is a list of my currently installed plug-ins. A lot of my development
 workflow is primarily revolved around Go, Ruby, and Puppet development, but
 `syntastic` covers a large amount of any other language I could possibly need a
 plug-in for.
