@@ -1,7 +1,7 @@
 # My NeoVim settings
 
 This repository serves as a way to setup NeoVim in the same manner as me.
-While this repository is mostly for me, anyone is welcome to use it.
+While this repository is mostly for myself, anyone is welcome to use it.
 
 ## Setup
 
@@ -46,11 +46,16 @@ workflow is primarily revolved around Go, Ruby, and Puppet development, but
 `syntastic` covers a large amount of any other language I could possibly need a
 plug-in for.
 
+  - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
   - [syntastic](https://github.com/vim-syntastic/syntastic)
+  - [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
   - [vim-fugitive](https://github.com/tpope/vim-fugitive)
   - [vim-go](https://github.com/fatih/vim-go)
   - [vim-puppet](https://github.com/rodjek/vim-puppet)
   - [vim-sensible](https://github.com/tpope/vim-sensible)
+  - [vim-snapmate](https://github.com/garbas/vim-snipmate)
+  - [vim-snippets](https://github.com/honza/vim-snippets)
+  - [tlib_vim](https://github.com/tomtom/tlib_vim)
 
 ## Contributing
 
