@@ -1,17 +1,30 @@
 " setting <LEADER> to ','
 let mapleader = ","
 
-" colorscheme - elflord
+" colorscheme
 colorscheme elflord
 
-" setting shell to /bin/bash for Vim
-set shell=/bin/bash
-
-" putting line numbers on editor for open files
+" line numbers show when opening files
 set number
 
-" using Pathogen as Vim plugin manager
-execute pathogen#infect()
+" using vim-plug as Vim plugin manager
+call plug#begin()
+
+" https://github.com/vim-syntastic/syntastic
+Plug 'scrooloose/syntastic'
+" https://github.com/tpope/vim-fugitive
+Plug 'tpope/vim-fugitive'
+" https://github.com/fatih/vim-go
+Plug 'fatih/vim-go'
+" https://github.com/rodjek/vim-puppet
+Plug 'rodjek/vim-puppet'
+" https://github.com/tpope/vim-sensible
+Plug 'tpope/vim-sensible'
+" https://github.com/honza/vim-snippets
+Plug 'honza/vim-snippets'
+
+call plug#end()
+
 syntax on
 filetype plugin indent on
 
